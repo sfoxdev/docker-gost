@@ -11,5 +11,5 @@ A simple security tunnel written in Golang
 
 ### Run container
 ```
-docker run -d --name gost sfoxdev/gost -D -L:3128 -F:example.com:3128
+docker run -d --name gost sfoxdev/gost -D -L=:3128 -F=example.com:3128
 ```
